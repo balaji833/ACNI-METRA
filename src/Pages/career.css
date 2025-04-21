@@ -1,0 +1,92 @@
+/* Careers Page Styles - Light Mode */
+.careers-page {
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333333;
+}
+
+.careers-page h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.careers-page > p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #555555;
+  margin-bottom: 40px;
+}
+
+.careers-section {
+  margin-bottom: 50px;
+}
+
+.careers-section h2 {
+  font-size: 2rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.job-listing {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.job-listing h3 {
+  font-size: 1.5rem;
+  color: #222222;
+  margin-bottom: 10px;
+}
+
+.job-listing p {
+  color: #555555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.job-listing a {
+  color: #007acc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.job-listing a:hover {
+  text-decoration: underline;
+}
+
+.careers-section ul {
+  padding-left: 20px;
+  line-height: 1.8;
+  color: #444444;
+}
+
+.careers-footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #666666;
+}
+
+.apply-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #ffcc00;
+  color: #1a1a1a;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.apply-btn:hover {
+  background-color: #e6b800;
+}

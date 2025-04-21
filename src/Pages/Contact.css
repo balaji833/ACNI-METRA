@@ -1,0 +1,128 @@
+.contact-page {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+/* Banner */
+.contact-banner {
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.4);
+}
+
+.banner-text {
+  text-align: center;
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 2rem;
+  border-radius: 1rem;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.banner-text h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.banner-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Grid Section */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact-left, .contact-right {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  animation: fadeInUp 1.5s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.contact-left h2, .contact-right h2 {
+  font-size: 2rem;
+  color: #007c91;
+  margin-bottom: 1rem;
+}
+
+.contact-left p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer {
+  background-color: #eaeaea;
+  color: #555;
+  padding: 3rem 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h4 {
+  color: #007c91;
+  margin-bottom: 1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #000;
+}
+
+.social-links li {
+  margin-bottom: 10px;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
